@@ -1,6 +1,6 @@
 # npmtest-humanize
 
-#### basic test coverage for  [humanize (v0.0.9)](https://github.com/taijinlee/humanize)  [![npm package](https://img.shields.io/npm/v/npmtest-humanize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-humanize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-humanize.svg)](https://travis-ci.org/npmtest/node-npmtest-humanize)
+#### basic test-coverage for  [humanize (v0.0.9)](https://github.com/taijinlee/humanize)  [![npm package](https://img.shields.io/npm/v/npmtest-humanize.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-humanize) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-humanize.svg)](https://travis-ci.org/npmtest/node-npmtest-humanize)
 
 #### Javascript string formatter for human readability
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "./node_modules/jshint/bin/hint humanize.js; find specs -type f -a -name *.spec.js -exec ./node_modules/mocha/bin/mocha --globals requirejsVars -R list --require should {} \\;"
     },
-    "version": "0.0.9"
+    "version": "0.0.9",
+    "bin": {}
 }
 ```
 
